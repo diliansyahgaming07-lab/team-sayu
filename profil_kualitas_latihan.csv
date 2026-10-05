@@ -1,0 +1,11 @@
+dimensi,kolom,masalah,jumlah,persen,keparahan,rencana
+Kelengkapan,berat_kg,Kosong untuk kategori non-fisik (MAR),351,22.75,Rendah,"Tandai tidak berlaku, bukan diisi"
+Kelengkapan,metode_bayar,"Placeholder teks berupa ""-"" atau ""tidak diketahui""",19,1.23,Rendah,Ubah placeholder teks menjadi NaN sebelum analisis
+Validitas,tanggal_transaksi,Format tanggal bercampur (ISO dan dd/mm/yyyy),307,19.9,Sedang,Parsing tanggal secara terpisah berdasarkan polanya
+Keunikan,seluruh kolom,Baris duplikat persis,24,1.56,Sedang,"Hapus, simpan satu"
+Validitas,total_bayar,Tipe data objek/teks karena awalan Rp,250,16.2,Tinggi,"Bersihkan string Rp dan titik ribuan, lalu konversi ke numerik"
+Kelengkapan,saldo_simpanan,"Kosong, diduga MNAR",159,10.3,Tinggi,Jangan diimputasi; tanyakan ke pengurus koperasi
+Konsistensi,id_anggota,Spasi tersembunyi (membentuk anggota hantu),59,3.82,Tinggi,Lakukan .str.strip() pada kolom id_anggota
+Kelengkapan,rating_layanan,Placeholder -999,49,3.18,Tinggi,Ubah menjadi NaN sebelum dihitung
+Validitas,jumlah,Nilai nol atau negatif,29,1.88,Tinggi,"Telusuri apakah retur; bila bukan, keluarkan dari analisis"
+Konsistensi,kategori,Satu kategori ditulis beberapa cara,13,0.84,Tinggi,Seragamkan; sinonim diputuskan manual
