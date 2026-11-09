@@ -51,6 +51,7 @@ Data digunakan untuk melihat kemiripan tingkat prevalensi stunting antarprovinsi
 | 2 | Jul Fikri Hasibuan |
 | 3 | Muhammad Abror |
 | 4 | Novita |
+| 5 | Muhammad Ghozi Al Ghani |
 
 ##  Kesimpulan
 
